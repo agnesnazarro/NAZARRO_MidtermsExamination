@@ -16,8 +16,8 @@ class ProductController extends Controller
             "movieTitleThree" => "Inside Out 2",
             "cinemaNumThree" => "SM City Baguio Cinema 3",
             "movieTitleFour" => "How to Make Millions Before Grandma Dies",
-            "cinemaNumFour" => "SM City Baguio Cinema 4",
+            "cinemaNumFour" => "SM City Baguio Cinema 4"
         );
-        return view("products", $movies);
+        return view("welcome", $movies);
     }
 }
